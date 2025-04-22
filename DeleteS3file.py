@@ -2,7 +2,7 @@ import boto3
 from botocore.exceptions import ClientError
 
 # AWS S3 bucket details
-BUCKET_NAME = "preetham-aws-s3"
+BUCKET_NAME = "<bucket name>"
 AWS_REGION = "us-east-1"  # Update this to your desired region
 
 # Initialize S3 client
@@ -29,7 +29,7 @@ def delete_multiple_from_s3(file_paths):
 
 if __name__ == "__main__":
     # Example: Deleting a single file
-    delete_from_s3('s3://preetham-aws-s3/twitterdata.py')
+    delete_from_s3('s3://sample-aws-s3/twitterdata.py') #give the file path in S3
 
     # Example: Deleting multiple files
     #files_to_delete = ['path/to/your/file1.txt', 'path/to/your/file2.txt', 'path/to/your/file3.txt']
