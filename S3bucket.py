@@ -26,9 +26,9 @@ def upload_file(file_name, bucket, object_name=None):
         return False
 
 # Call function with correct path
-file_path = r"C:\Users\Preetham Madhamsetty\OneDrive\Documents\Docs\New resumes\SDE\PreethamMadhamsetty.pdf"
+file_path = r"<file path>"
 bucket_name = "preetham-aws-s3"
-object_name = "PreethamMadhamsetty.pdf"
+object_name = "<file name>"
 
 upload_file(file_path, bucket_name, object_name)
 
