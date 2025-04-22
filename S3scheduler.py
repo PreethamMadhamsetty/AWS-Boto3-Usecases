@@ -4,8 +4,8 @@ import boto3
 from botocore.exceptions import NoCredentialsError, ClientError
 
 # AWS S3 bucket details
-BUCKET_NAME = "preetham-aws-s3"
-LOCAL_DIRECTORY = r"C:\Users\Preetham Madhamsetty\OneDrive\Documents\Docs\New resumes\SDE"
+BUCKET_NAME = "bucket name"
+LOCAL_DIRECTORY = r"<path with files>"
 AWS_REGION = "us-east-1"  # Update this to your desired region
 
 # Initialize S3 client
