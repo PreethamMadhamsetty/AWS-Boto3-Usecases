@@ -27,7 +27,7 @@ def upload_file(file_name, bucket, object_name=None):
 
 # Call function with correct path
 file_path = r"<file path>"
-bucket_name = "preetham-aws-s3"
+bucket_name = "<bucket name>"
 object_name = "<file name>"
 
 upload_file(file_path, bucket_name, object_name)
